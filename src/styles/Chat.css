@@ -1,0 +1,48 @@
+.ChatBox {
+    border: 1px solid #aaa;
+    min-height: 350px;
+    max-height: 350px;
+    overflow: auto !important;
+    border-radius: 5px;
+    background-color: #222;
+
+}
+
+.leftSide {
+    float: left;
+    color: #27aedb;
+    display: block;
+    position: relative;
+
+}
+
+.rightSide {
+    float:right;
+
+}
+
+.message {
+    margin: 2px;
+    background-color: #111;
+    padding: 5px;
+    border-radius: 5px;
+    clear: both;
+}
+
+#textField {
+    margin-top: 5px;
+    width: 10%;
+    float: left;
+    border: 0;
+    height: 20px;
+    background-color: #111;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.2s;
+}
+
+#textField:focus {
+    background-color: #222;
+    outline: none;
+    width: 99%;
+}

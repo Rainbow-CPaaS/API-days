@@ -1,0 +1,25 @@
+#sandBox {
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#serviceSandbox {
+    font-size: 12px;
+	overflow-y: scroll;
+    margin: 5px;
+
+}
+
+#serviceSandbox button {
+    margin-right: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+
+}
+
+#Navbar {
+    float: left;
+    border-right: 1px solid #aaa;
+
+}

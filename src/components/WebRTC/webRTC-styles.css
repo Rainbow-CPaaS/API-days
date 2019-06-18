@@ -1,0 +1,24 @@
+
+#videoContainer {
+    position: relative;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#largevideo {
+    position: relative;
+    z-index: 0;
+    max-width: 400px;
+	max-height: 500px;
+    border-radius: 10px;
+}
+
+#minivideo {
+    border-radius: 10px;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    top: 4%;
+    right: 4%;
+}
